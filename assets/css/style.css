@@ -1,0 +1,56 @@
+body {
+    background: url(../images/background.png) 0% 0%/ cover no-repeat;
+}
+
+.container-fluid {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.col-12 {
+    padding:0;
+}
+
+img {
+    height: 75px;
+}
+
+h1 {
+    background-color: #e3432d;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fdf233;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px;
+}
+
+.instructions {
+    background-color: #fbe6cf;
+    color: #579a58;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5
+}
+
+.score {
+    background-color: aqua;  
+    font-size: 13px;
+    
+} 
+
+#wins, #losses, #resultMessage {
+    margin-bottom: 0;
+}
+
+h5{
+    color: purple
+}
+#numberTarget {
+    font-size: 30px;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#playerScore {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif
+}
